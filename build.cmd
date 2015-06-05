@@ -8,7 +8,7 @@
 @echo enum initialCompilerBinary = "%DC%"; >> source\dub\version_.d
 
 @echo Executing %DC%...
-@%DC% -ofbin\dub.exe -g -debug -w -version=DubUseCurl -Isource curl.lib %* @build-files.txt
+@%DC% -ofbin\dub-data-hack.exe -g -debug -w -version=DubUseCurl -Isource curl.lib %* @build-files.txt
 @if errorlevel 1 exit /b 1
 
 @echo DUB has been built. You probably also want to add the following entry to your
