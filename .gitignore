@@ -9,7 +9,7 @@ docs.json
 __dummy.html
 
 # Ignore build files.
-/bin/dub
+/bin/dub-data-hack
 /bin/__test__library-nonet__
 /bin/__test__library__
 
