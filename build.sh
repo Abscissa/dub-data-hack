@@ -41,9 +41,9 @@ echo "enum initialCompilerBinary = \"$DMD\";" >> source/dub/version_.d
 
 
 echo Running $DMD...
-$DMD -ofbin/dub-data-hack -w -version=DubUseCurl -Isource $* $LIBS @build-files.txt
-echo DUB has been built as bin/dub-data-hack.
+$DMD -ofbin/dub-data-mod -w -version=DubUseCurl -Isource $* $LIBS @build-files.txt
+echo DUB has been built as bin/dub-data-mod.
 echo
 echo You may want to run
-echo sudo ln -s $(pwd)/bin/dub-data-hack /usr/local/bin
+echo sudo ln -s $(pwd)/bin/dub-data-mod /usr/local/bin
 echo now.
